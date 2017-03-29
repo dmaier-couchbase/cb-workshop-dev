@@ -28,7 +28,7 @@ The attendee should have all required permissions to create Virtual Machines and
 
 # Virtual Machine Setup
 
-> We used usually 4-5 VM-s during this training. However, we usually had issues with the VM-s network connectivity during this workshop. So this time we will set up exactly 1 VM which will include all required components.
+> Instead of setting up 4-5 VM-s, we will set up exactly 1 VM which will include all required components.
 
 If you use the provided VM image, then you can skip the following steps:
 
