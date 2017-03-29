@@ -46,6 +46,8 @@ If you use the provided VM image, then you can skip the following steps:
 
 ## Configure the VM network
 
+The following commands need to be executed as user 'root'
+
 ### NAT
 
 The NAT interface should be there by default. The NAT IP is usually something like '10.0.2.15'. 
@@ -95,4 +97,38 @@ ip addr show
 * Make sure that you have access to the internet. The following ping should return a response:
 ```
 ping 8.8.8.8
+ping google.com
 ```
+
+## Docker
+
+The following steps can be performed to run a Couchbase instance via Docker:
+
+* Install Docker as 'root' user:
+```
+yum install docker
+systemctl start docker
+systemctl enable docker
+```
+
+* Start 3 Couchbase instances
+```
+docker run -d --name couchbase-1 -p 8091-8094:8091-8094 -p 11210-11211:11210-11211 couchbase
+docker run -d --name couchbase-2 couchbase
+docker run -d --name couchbase-3 couchbase
+```
+
+This downloads and runs the latest Couchbase container. The first container will be accessible from the outside world.
+
+* Retrieve the container's internal IP addresses and note them down:
+```
+inspect couchbase-$i | grep IPAddress
+```
+
+Access the Couchbase UI via the Host-Only IP
+```
+http://192.168.56.101:8091/
+```
+You should see Couchbase's setup dialog.
+
+* Testwise create a 3 node cluster and then stop and recreate the containers
