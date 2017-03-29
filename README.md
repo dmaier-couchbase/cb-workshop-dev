@@ -22,6 +22,7 @@ The following connectivity is expected:
 The following software needs to be installed on the attendee's computer:
 
 * VirtualBox >= 4.3
+* Putty and WinSCP (Windows only)
 
 The attendee should have all required permissions to create Virtual Machines and Virtual Machine networks on his box.
 
