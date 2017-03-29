@@ -1,2 +1,7 @@
-# cb-workshop-dev
-The material for the combined developer workshop. This workshop addresses C/C++ and Java development with the Couchbase Client SDK-s.
+# Couchbase Development Workshop
+
+This repository contains the material for a combined developer workshop. The following SDK-s are covered:
+
+* C/C++
+* Java
+
