@@ -81,7 +81,12 @@ Your VM should now have two network cards. You can double check and change the s
 nmtui
 ```
 
+* Make sure that all network devices are enabled at startup and that they are available to all users
 * Check the name server settings
 * Change the host name to 'couchbase-dev.localdomain'
+* Show your IP addresses:
+```
+ip addr show
+```
 
-
+> In my case the NAT interface had the IP address 10.0.2.15 and the host only network was 192.168.56.101
