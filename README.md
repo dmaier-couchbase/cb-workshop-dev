@@ -56,9 +56,25 @@ In order to enable access from the outside world via NAT, port forwarding can be
 | CB            |9191              | 8091      |
 | VNC           |9159              | 5901      |
 
+Boot the VM and disable the firewall:
+```
+systemctl disable firewalld
+systemctl stop firewalld
+```
 
+## Host only
 
+The next step is to allow the machine to be connected by other machines in the network because in the exercises we want build a cluster of VM-s here. First we need to add a second network adapter:
 
+* Power off the VM
+* Under the VM settings add 'Adapter 2' and enable it
+* Select 'Host-only Adapter' as the type
+* If there is no global host-only network then you need to create it via the general Virtualbox preferences
+* Power on the maching
 
+Your VM should now have two network cards. You can double check and change the settings by using the following tool:
+```
+nmtui
+```
 
 
