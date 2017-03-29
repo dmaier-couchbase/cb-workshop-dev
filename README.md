@@ -90,3 +90,8 @@ ip addr show
 ```
 
 > In my case the NAT interface had the IP address 10.0.2.15 and the host only network was 192.168.56.101
+
+* Make sure that you have access to the internet. The following ping should return a response:
+```
+ping 8.8.8.8
+```
