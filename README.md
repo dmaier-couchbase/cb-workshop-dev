@@ -35,6 +35,7 @@ If you use the provided VM image, then you can skip the following steps:
 * Create 64 Bit Linux VM in VirtualBox and call it 'Couchbase-Dev'
 * Assign 3072 MB RAM to it
 * Assign a 25GB disk to it
+* Change the CPU configuration to use at least 2 cores of your host machine
 * Add the media 'CentOS-7-x86_64-DVD-1611.iso' (The DVD CentOS7 media from https://www.centos.org/download/)
 * Start the VM, choose 'Install' and follow the installation instructions
 * Set the root password to 'couchbase'
