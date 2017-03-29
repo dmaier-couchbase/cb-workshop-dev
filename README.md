@@ -73,9 +73,15 @@ The next step is to allow the machine to be connected by other machines in the n
 * If there is no global host-only network then you need to create it via the general Virtualbox preferences
 * Power on the maching
 
+## Network settings
+
 Your VM should now have two network cards. You can double check and change the settings by using the following tool:
+
 ```
 nmtui
 ```
+
+* Check the name server settings
+* Change the host name to 'couchbase-dev.localdomain'
 
 
