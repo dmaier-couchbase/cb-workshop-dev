@@ -34,8 +34,6 @@ Details regarding the setup of the workshop VM can be found here:
 * [VMSETUP](https://github.com/dmaier-couchbase/cb-workshop-dev/blob/master/VMSETUP.md)
 
 
-
-
 ## Agenda
 
 * Day 1
@@ -49,7 +47,7 @@ Details regarding the setup of the workshop VM can be found here:
 |                 | Working with Buckets                    |
 |                 | Working with the Cluster                |
 | 12:30           | Lunch                                   |
-|                 | Security features                       |
+|                 | Security Features                       |
 |                 | Cross Data Center Replication explained |
 |                 | Backup & Restore                        |
 | 17:00           | Q&A and Summary                         |
@@ -105,12 +103,10 @@ Details regarding the setup of the workshop VM can be found here:
 | --------------- | -------------------------------------- | -------------------------------------------- |
 | 7               | Project Setup                          | Qt (C/C++) or Netbeans/Maven (Java) | 
 | 8               | Connection Management                  | Implement a Data Source Factory |
-| 9               | Create/Update Document                 | Implement the Upsert method of the Data Source class |
+| 9               | Create/Update Documents                | Implement the Upsert method of the Data Source class |
 | 10              | Get Documents                          | Implement the Get method of the Data Source class |
 | 11              | Delete Documents                       | Implement the Delete method of the Data Source class |
 | 12              | Query a View                           | Create a View via the Admin UI, Implement the QueryView method in the Data Source class|
 | 13              | Querying via N1QL                      | Inspect the Global Secondary Indexes, Simple queries, Join queries, Implement the QueryN1ql method in the DataSource class |
-| 14              | Full Text Search                       | Implement  the FtSearch method in the DataSource class  |
+| 14              | Full Text Search                       | Implement  the FullTextSearch method in the DataSource class  |
 | 15              | A Sample Application                   | Run and build the Travel-Sample application  |
-
-
