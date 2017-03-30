@@ -306,11 +306,21 @@ vncserver :1 -geometry 1280x1024
 
 ### Java IDE
 
-* Download the JDK installation package from Oracle's web site (jdk-8u121-linux-x64.rpm from http://www.oracle.com/technetwork/java/javase/downloads/) and place it under '/root/Downloads'
+* Install Maven
+```
+yum install maven
+```
+
+* Download the JDK installation package from Oracle's web site (jdk-8u121-linux-x64.tar.gz from http://www.oracle.com/technetwork/java/javase/downloads/) and place it under '/root/Downloads'
 
 * Install the JDK
 ```
-rpm -ivh jdk-8u121-linux-x64.rpm
+cd /root/Downloads
+tar -xvf jdk-8u121-linux-x64.tar.gz
+mv jdk1.8.0_121 /opt/jdk
+echo ' ' >>  /root/.bash_profile
+echo 'export PATH=/opt/jdk/bin:$PATH' >> /root/.bash_profile
+echo 'export JAVA_HOME=/opt/jdk' >> /root/.bash_profile
 ```
     
 * Double check the version
@@ -340,3 +350,20 @@ chmod +x netbeans-8.2-linux.sh
 This might take a while.
 
 > I installed Glassfish to /opt/glassfish
+
+* Ensure that Netbeans uses the right JDK by investigating the file /opt/netbeans/netbeans.conf
+
+```
+netbeans_jdkhome="/opt/jdk"
+```
+
+If not set the right SDK!
+
+
+* Start Netbeans
+
+```
+netbeans-8.2-linux.sh 
+```
+
+* Create an empty Maven project
