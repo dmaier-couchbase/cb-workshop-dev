@@ -51,6 +51,7 @@ Details regarding the setup of the workshop VM can be found here:
 | 12:30           | Lunch                                   |
 |                 | Security features                       |
 |                 | Cross Data Center Replication explained |
+|                 | Backup & Restore                        |
 | 17:00           | Q&A and Summary                         |
 
 * Day 2
@@ -87,26 +88,29 @@ Details regarding the setup of the workshop VM can be found here:
 |                 |                                        | Install Telnet |
 |                 |                                        | Retrieve some statistics via Telnet |
 |                 |                                        | Set/get a value via Telnet |
-|                 |                                        | Install Curl |
 |                 |                                        | Get details via the REST API |
 | 3               | Working with Buckets                   | Create a Bucket via the UI |
 |                 |                                        | Add a document to the Bucket |
 |                 |                                        | Create a Bucket via the CLI|
+|                 |                                        | Query a Bucket via the Query Workbench |
 | 4               | Working with the Cluster               | Add/remove nodes via the UI|
 |                 |                                        | Rebalance|
 |                 |                                        | Add/remove nodes via the CLI |
-| 5               | Backup/Restore                         | Use cbbackup to backup a Bucket|
-|                 |                                        | Use cbrestore to restore to another Bucket|
+| 5               | Backup/Restore                         | Use 'cbbackupmgr' to backup/restore a Bucket |
 | 6               | XDCR                                   | Create an XDCR link via the UI |
 
 ### Day 2: Using the Couchbase Java 2.x Client Library
 
-The starting point for the day 2 execises is the '1' folder. This is basically an empty application skeleton. Folder '2' is a bit more progressed. The final solution can be found in folder '3'.
-
 | #               | Title                                  | Content                                      | 
 | --------------- | -------------------------------------- | -------------------------------------------- |
-| 7               | Project Setup                          | Maven Dependencies | 
-| 8               | Connection Management                  | ConnectionFactory, Singleton approach |
-| 9               | CRUD Operations                        | Create Documents, Reference Documents, Get Documents |
-| 10              | Querying via Views                     | Create a Design Document, Create View, Query via the Browser and Client |
-| 11              | Querying via N1QL                      | Create a Secondary Index via the CLI, A simple Query, Query by performing a Join |
+| 7               | Project Setup                          | Qt (C/C++) or Netbeans/Maven (Java) | 
+| 8               | Connection Management                  | Implement a Data Source Factory |
+| 9               | Create/Update Document                 | Implement the Upsert method of the Data Source class |
+| 10              | Get Documents                          | Implement the Get method of the Data Source class |
+| 11              | Delete Documents                       | Implement the Delete method of the Data Source class |
+| 12              | Query a View                           | Create a View via the Admin UI, Implement the QueryView method in the Data Source class|
+| 13              | Querying via N1QL                      | Inspect the Global Secondary Indexes, Simple queries, Join queries, Implement the QueryN1ql method in the DataSource class |
+| 14              | Full Text Search                       | Implement  the FtSearch method in the DataSource class  |
+| 15              | A Sample Application                   | Run and build the Travel-Sample application  |
+
+
