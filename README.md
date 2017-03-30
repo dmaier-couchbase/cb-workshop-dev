@@ -99,7 +99,7 @@ Details regarding the setup of the workshop VM can be found here:
 | 5               | Backup/Restore                         | Use 'cbbackupmgr' to backup/restore a Bucket |
 | 6               | XDCR                                   | Create an XDCR link via the UI |
 
-### Day 2: Using the Couchbase Java 2.x Client Library
+### Day 2: Using the Couchbase Client Library
 
 | #               | Title                                  | Content                                      | 
 | --------------- | -------------------------------------- | -------------------------------------------- |
