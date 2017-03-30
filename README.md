@@ -411,7 +411,7 @@ poweroff
 * Start it there
 * Double check the network access
 
-| Subject       | Checked|
+| Check         | Checked|
 | ------------- |--------|
 | The VM has at least a NAT IP address |?       |
 | From the outside world, you can access the VM via SSH on it's host only IP address OR you can access it via the forwarded port 9122 on the VM's host |?       |
