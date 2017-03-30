@@ -39,8 +39,9 @@ The attendee should have all required permissions to create Virtual Machines and
 ## Virtual Machine Setup
 
 > Instead of setting up 4-5 VM-s, we will set up exactly 1 VM which will include all required components.
+> If you use the provided VM image, then you can skip the following steps. At least check if the network is configured correctly in this case! More details can be found in the section 'Configure the VM network'.
 
-If you use the provided VM image, then you can skip the following steps:
+Perform the following steps in order to create the Virtual Machine:
 
 * Create 64 Bit Linux VM in VirtualBox and call it 'Couchbase-Dev'
 * Assign 3072 MB RAM to it
