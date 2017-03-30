@@ -376,5 +376,24 @@ Or use the the Desktop libk 'Netbeans 8.2'
 
 ### C/C++ IDE
 
-TODO
+* Install the development tools
+```
+yum groupinstall 'Development Tools'
+```
 
+* Install Qt5
+```
+yum install qt5-*
+```
+
+* Install the Qt-Creator
+```
+yum install qt-creator
+```
+
+* Log-in to the graphical user interface and run Qt-Creator
+```
+yum install qt5-* --skip-broken
+```
+
+> This worked in CentOS 6 w/o the flag --skip-broken. Let's hope the best.
