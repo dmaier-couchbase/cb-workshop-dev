@@ -395,5 +395,7 @@ yum install qt-creator
 
 * Log-in to the graphical user interface and run Qt-Creator
 ```
-TODO
+qtcreator
 ```
+
+* Create an empty 'Qt Widgets Application' and run it
