@@ -228,3 +228,18 @@ systemctl status couchbase-server | grep Active
 ```
 http://192.168.56.101:8091
 ```
+
+* Stop Couchbase
+```
+systemctl stop couchbase-server
+```
+
+* Uninstall Couchbase again
+```
+rpm -e couchbase-server
+```
+
+* Remove the old installation directory
+```
+rm -Rf /opt/couchbase/
+```
