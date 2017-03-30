@@ -1,6 +1,6 @@
-# TOC
-
-   * [Couchbase Development Workshop](#couchbase-development-workshop)
+ # TOC
+ 
+   * [VM Setup](#vm-setup)
       * [Requirements](#requirements)
       * [Virtual Machine Setup](#virtual-machine-setup)
          * [Configure the VM network](#configure-the-vm-network)
