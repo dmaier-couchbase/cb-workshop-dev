@@ -9,7 +9,7 @@
          * [Couchbase](#couchbase)
          * [Graphical User Interface](#graphical-user-interface)
          * [Java IDE](#java-ide)
-         * [C/C   IDE](#cc-ide)
+         * [C/C++ IDE](#cc-ide)
 
 
          
