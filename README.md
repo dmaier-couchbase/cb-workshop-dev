@@ -16,7 +16,7 @@ This repository contains the material for a combined developer workshop. The fol
 * Java
 
 
-# Requirements
+## Requirements
 
 Each training computer should have at least the following HW configuration
 
@@ -37,7 +37,7 @@ The following software needs to be installed on the attendee's computer:
 The attendee should have all required permissions to create Virtual Machines and Virtual Machine networks on his box.
 
 
-# Virtual Machine Setup
+## Virtual Machine Setup
 
 > Instead of setting up 4-5 VM-s, we will set up exactly 1 VM which will include all required components.
 
@@ -54,11 +54,11 @@ If you use the provided VM image, then you can skip the following steps:
 * Choose to create a user 'couchbase' and password 'couchbase' during the installation
 * Wait for the installation to complete
 
-## Configure the VM network
+### Configure the VM network
 
 The following commands need to be executed as user 'root'
 
-### NAT
+#### NAT
 
 If you just want to access the outside world from within the VM then a NAT interface is enough. The NAT interface should be there by default. The NAT IP is automatically assigned and is usually something like '10.0.2.15'. 
 
@@ -76,7 +76,7 @@ systemctl disable firewalld
 systemctl stop firewalld
 ```
 
-### Host only
+#### Host only
 
 Host-only networking creates a network that is completely contained within the host computer. It allows us to connect to our VM without using Port forwarding.
 
@@ -86,7 +86,7 @@ Host-only networking creates a network that is completely contained within the h
 * If there is no global host-only network then you need to create it via the general Virtualbox preferences
 * Power on the maching
 
-## Network settings
+### Network settings
 
 Your VM should now have two network cards. You can double check and change the settings by using the following tool:
 
@@ -110,7 +110,7 @@ ping 8.8.8.8
 ping google.com
 ```
 
-## Docker
+### Docker
 
 > Instead of dealing with multiple VM-s, we will use Docker containers within the VM in order to do the clustering exercises
 
