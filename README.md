@@ -34,6 +34,7 @@ The following software needs to be installed on the attendee's computer:
 
 * VirtualBox >= 4.3
 * Putty and WinSCP (Windows only)
+* A VNC Viewer (https://github.com/TigerVNC/tigervnc/releases)
 
 The attendee should have all required permissions to create Virtual Machines and Virtual Machine networks on his box.
 
@@ -300,5 +301,7 @@ vncserver :1 -geometry 1280x1024
 
 > The VNC Server can be stopped by using the command 'vncserver -kill :1'
 
-* Use a VNC client to connect to the UI
+* Use a VNC client to connect to the UI (The password is 'couchbase')
+
+
 
