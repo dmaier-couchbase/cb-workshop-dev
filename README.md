@@ -66,7 +66,7 @@ systemctl disable firewalld
 systemctl stop firewalld
 ```
 
-## Host only
+### Host only
 
 The next step is to allow the machine to be connected by other machines in the network because in the exercises we want build a cluster of VM-s here. First we need to add a second network adapter:
 
