@@ -285,7 +285,7 @@ vncpasswd
 vi /root/.vnc/xstartup
 ```
 
-* Add xterm to the VNC startup
+* Add the Window Manager to the VNC startup
 ```
 #!/bin/sh
 
