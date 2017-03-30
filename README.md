@@ -1,9 +1,12 @@
 # Couchbase Development Workshop
 
-This repository contains the material for a combined developer workshop. The following SDK-s are covered:
+Couchbase Server is an open source, distributed, NoSQL document-oriented database. It exposes a fast key-value store with managed cache for submillisecond data operations, purpose-built indexers for fast queries and a query engine for executing SQL-like queries. Couchbase Server was designed to satisfy requirements for a flexible data model, a powerful query language, scalability, performance, simple administration and high availability.
 
-* C/C++
-* Java
+This course is designed to give an introuction into Couchbase's main use cases, teach the Couchbase Server's administration basics and it's architecture. The main focus of this 2 day workshop is to learn how to develop with Couchbase's standard development kits. You will learn how to manage connections, how to work with documents and how to model your data best for Couchbase.
+
+This is a combined C/C++ & Java workshop. The Couchbase development basics will be thought together for Java and C/C++ developers. The audience will be split into 2 groups on the second day in order to perform programming language specific exercises.
+
+
 
 ## Requirements
 
