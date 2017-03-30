@@ -1,12 +1,11 @@
-
    * [Couchbase Development Workshop](#couchbase-development-workshop)
-   * [Requirements](#requirements)
-   * [Virtual Machine Setup](#virtual-machine-setup)
-      * [Configure the VM network](#configure-the-vm-network)
-         * [NAT](#nat)
-         * [Host only](#host-only)
-      * [Network settings](#network-settings)
-      * [Docker](#docker)
+      * [Requirements](#requirements)
+      * [Virtual Machine Setup](#virtual-machine-setup)
+         * [Configure the VM network](#configure-the-vm-network)
+            * [NAT](#nat)
+            * [Host only](#host-only)
+         * [Network settings](#network-settings)
+         * [Docker](#docker)
 
 # Couchbase Development Workshop
 
