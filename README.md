@@ -366,4 +366,6 @@ If not set the right SDK!
 netbeans-8.2-linux.sh 
 ```
 
-* Create an empty Maven project
+* Create an empty Maven Java project and build it
+
+
