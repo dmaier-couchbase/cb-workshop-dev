@@ -422,4 +422,3 @@ poweroff
 
 The VM image is available here:
 
-* https://www.dropbox.com/sh/8umsxntxn5ou5xa/AADR_1YmKzrdeKDBZDzDeFxGa?dl=0
