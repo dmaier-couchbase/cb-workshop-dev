@@ -304,5 +304,39 @@ vncserver :1 -geometry 1280x1024
 
 * Use a VNC client to connect to the UI (The password is 'couchbase')
 
+### Java IDE
 
+* Download the JDK installation package from Oracle's web site (jdk-8u121-linux-x64.rpm from http://www.oracle.com/technetwork/java/javase/downloads/) and place it under '/root/Downloads'
 
+* Install the JDK
+```
+rpm -ivh jdk-8u121-linux-x64.rpm
+```
+    
+* Double check the version
+```
+java -version
+```
+
+This should return:
+```
+Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
+```
+
+* Download Netbeans from https://netbeans.org/downloads/ to '/root/Downloads'
+
+> I used the full distribution
+
+* Change the script 'netbeans-8.2-linux.sh' to be executable
+```
+chmod +x netbeans-8.2-linux.sh 
+```
+
+* Log-in to the graphical user interface and install Netbeans under /opt/netbeans
+```
+./netbeans-8.2-linux.sh 
+```
+
+This might take a while.
+
+> I installed Glassfish to /opt/glassfish
