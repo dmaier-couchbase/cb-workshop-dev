@@ -1,5 +1,3 @@
-Table of Contents
-=================
 
    * [Couchbase Development Workshop](#couchbase-development-workshop)
    * [Requirements](#requirements)
