@@ -399,3 +399,25 @@ qtcreator
 ```
 
 * Create an empty 'Qt Widgets Application' and run it
+
+### Final steps
+
+* Power off the VM
+```
+poweroff
+```
+
+* Copy it over to another PC/Mac
+* Start it there
+* Double check the network access
+
+| Subject       | Checked|
+| ------------- |--------|
+| The VM has at least a NAT IP address |?       |
+| From the outside world, you can access the VM via SSH on it's host only IP address OR you can access it via the forwarded port 9122 on the VM's host |?       |
+| You can access port 8091 on it's host-only IP address OR you can access it via the forwarded port 9191 on the VM's host |?       |
+| You can access port 5901 on it's host-only IP address OR you can access it via the forwarded port 9159 on the VM's host |?       |
+| From within the VM. you can ping 8.8.8.8 |?       |
+| You can ping google.com |?       |
+
+* If necessary repeat the steps in 'Configure the VM network'
