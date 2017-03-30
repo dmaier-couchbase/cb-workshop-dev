@@ -321,6 +321,7 @@ mv jdk1.8.0_121 /opt/jdk
 echo ' ' >>  /root/.bash_profile
 echo 'export PATH=/opt/jdk/bin:$PATH' >> /root/.bash_profile
 echo 'export JAVA_HOME=/opt/jdk' >> /root/.bash_profile
+source /root/.bash_profile
 ```
     
 * Double check the version
