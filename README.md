@@ -248,3 +248,57 @@ rm -Rf /opt/couchbase/
 ```
 
 > Leave the installation package under /root/Downloads/ !
+
+### Graphical User Interface
+
+We want to do some Development exercises on the VM, so we need a way to access a graphical user interface.
+
+* Install 'Epel'
+```
+yum install epel-release
+```
+
+* Install X
+```
+yum groupinstall "X Window system"
+```
+
+* Install XFCE Desktop Environment
+```
+yum groupinstall xfce
+```
+
+* Install a VNC server
+```
+ yum install tigervnc-server
+```
+
+* Set VNC password for user root to 'couchbase'
+```
+vncpasswd
+```
+
+* Modify the VNC startup file
+```
+vi /root/.vnc/xstartup
+```
+
+* Add xterm to the VNC startup
+```
+#!/bin/sh
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+#exec /etc/X11/xinit/xinitrc
+exec /usr/bin/startxfce4
+```
+
+* Start the VNC server
+```
+vncserver :1 -geometry 1280x1024
+```
+
+> The VNC Server can be stopped by using the command 'vncserver -kill :1'
+
+* Use a VNC client to connect to the UI
+
