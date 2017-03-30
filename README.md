@@ -1,4 +1,3 @@
-
    * [Couchbase Development Workshop](#couchbase-development-workshop)
       * [Requirements](#requirements)
       * [Virtual Machine Setup](#virtual-machine-setup)
@@ -9,6 +8,10 @@
          * [Docker](#docker)
          * [Couchbase](#couchbase)
          * [Graphical User Interface](#graphical-user-interface)
+         * [Java IDE](#java-ide)
+         * [C/C   IDE](#cc-ide)
+
+
          
 # Couchbase Development Workshop
 
