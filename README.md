@@ -8,6 +8,7 @@
             * [Network settings](#network-settings)
          * [Docker](#docker)
          * [Couchbase](#couchbase)
+         * [Graphical User Interface](#graphical-user-interface)
          
 # Couchbase Development Workshop
 
