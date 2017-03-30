@@ -102,6 +102,8 @@ ping google.com
 
 ## Docker
 
+> Instead of dealing with multiple VM-s, we will use Docker containers within the VM in order to do the clustering exercises
+
 The following steps can be performed to run a Couchbase instance via Docker:
 
 * Install Docker as 'root' user:
@@ -129,6 +131,55 @@ Access the Couchbase UI via the Host-Only IP
 ```
 http://192.168.56.101:8091/
 ```
+
+Remember, the first node exposes port 8091 and so it's possible to access it via the docker host's name on this port.
+
 You should see Couchbase's setup dialog.
 
-* Testwise create a 3 node cluster and then stop and recreate the containers
+* Testwise create a 3 node cluster via the UI on the first node 
+
+Use the internal IP-s of the docker containers as host names of your cluster nodes!
+
+* Stop the containers
+```
+docker stop couchbase-1
+docker stop couchbase-2
+docker stop couchbase-3
+```
+
+* Delete the containers
+```
+docker rm couchbase-1
+docker rm couchbase-2
+docker rm couchbase-3
+```
+
+* Create the containers again
+```
+docker run -d --name couchbase-1 -p 8091-8094:8091-8094 -p 11210-11211:11210-11211 couchbase
+docker run -d --name couchbase-2 couchbase
+docker run -d --name couchbase-3 couchbase
+```
+
+* Double check that the containers are running
+```
+docker ps
+```
+
+* Check if you can access the Couchbase CLI
+```
+docker exec -it couchbase-1 /bin/bash
+```
+
+* Test if all nodes are reachable
+```
+curl http://172.17.0.2:8091/pools/
+curl http://172.17.0.3:8091/pools/
+curl http://172.17.0.4:8091/pools/
+```
+> Whereby the IP-s above need to be replaced with the internal container IP-s of your Couchbase containers
+
+The result should look like this:
+```
+{"isAdminCreds":true,"isROAdminCreds":false,"isEnterprise":true,"pools":[],"settings":[],"uuid":[],"implementationVersion":"4.6.1-3652-enterprise","componentsVersion":{"lhttpc":"1.3.0","os_mon":"2.2.14","public_key":"0.21","asn1":"2.0.4","kernel":"2.16.4","ale":"4.6.1-3652-enterprise","inets":"5.9.8","ns_server":"4.6.1-3652-enterprise","crypto":"3.2","ssl":"5.3.3","sasl":"2.3.4","stdlib":"1.19.4"}}
+```
