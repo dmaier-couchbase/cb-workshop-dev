@@ -358,15 +358,20 @@ This might take a while.
 netbeans_jdkhome="/opt/jdk"
 ```
 
-If not set the right SDK!
+If not then set the right SDK!
 
 
 * Start Netbeans
 
 ```
-netbeans-8.2-linux.sh 
+/opt/netbeans/bin/netbeans-8.2-linux.sh 
 ```
+
+Or use the the Desktop libk 'Netbeans 8.2'
 
 * Create an empty Maven Java project and build it
 
+### C/C++ IDE
+
+TODO
 
