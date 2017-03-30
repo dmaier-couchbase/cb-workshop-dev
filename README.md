@@ -1,4 +1,4 @@
-   * [Couchbase Development Workshop](#couchbase-development-workshop)
+* [Couchbase Development Workshop](#couchbase-development-workshop)
       * [Requirements](#requirements)
       * [Virtual Machine Setup](#virtual-machine-setup)
          * [Configure the VM network](#configure-the-vm-network)
@@ -6,7 +6,8 @@
             * [Host only](#host-only)
             * [Network settings](#network-settings)
          * [Docker](#docker)
-
+         * [Couchbase](#couchbase)
+         
 # Couchbase Development Workshop
 
 This repository contains the material for a combined developer workshop. The following SDK-s are covered:
