@@ -383,8 +383,10 @@ yum groupinstall 'Development Tools'
 
 * Install Qt5
 ```
-yum install qt5-*
+yum install qt5-* --skip-broken
 ```
+
+> This worked in CentOS 6 w/o the flag --skip-broken. Let's hope the best.
 
 * Install the Qt-Creator
 ```
@@ -393,7 +395,5 @@ yum install qt-creator
 
 * Log-in to the graphical user interface and run Qt-Creator
 ```
-yum install qt5-* --skip-broken
+TODO
 ```
-
-> This worked in CentOS 6 w/o the flag --skip-broken. Let's hope the best.
