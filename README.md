@@ -1,4 +1,7 @@
-* [Couchbase Development Workshop](#couchbase-development-workshop)
+Table of Contents
+=================
+
+   * [Couchbase Development Workshop](#couchbase-development-workshop)
       * [Requirements](#requirements)
       * [Virtual Machine Setup](#virtual-machine-setup)
          * [Configure the VM network](#configure-the-vm-network)
