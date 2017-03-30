@@ -5,12 +5,6 @@ This repository contains the material for a combined developer workshop. The fol
 * C/C++
 * Java
 
-## VM Setup
-
-Details regarding the setup of the workshop VM can be found here: 
-
-* [VMSETUP](https://github.com/dmaier-couchbase/cb-workshop-dev/blob/master/VMSETUP.md)
-
 ## Requirements
 
 Each training computer should have at least the following HW configuration
@@ -31,3 +25,10 @@ The following software needs to be installed on the attendee's computer:
 * A VNC Viewer (https://github.com/TigerVNC/tigervnc/releases)
 
 The attendee should have all required permissions to create Virtual Machines and Virtual Machine networks on his box.
+
+
+## VM Setup
+
+Details regarding the setup of the workshop VM can be found here: 
+
+* [VMSETUP](https://github.com/dmaier-couchbase/cb-workshop-dev/blob/master/VMSETUP.md)
