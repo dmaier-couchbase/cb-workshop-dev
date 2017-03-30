@@ -243,3 +243,5 @@ rpm -e couchbase-server
 ```
 rm -Rf /opt/couchbase/
 ```
+
+> Leave the installation package under /root/Downloads/ !
