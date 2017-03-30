@@ -192,3 +192,39 @@ The result should look like this:
 ```
 {"isAdminCreds":true,"isROAdminCreds":false,"isEnterprise":true,"pools":[],"settings":[],"uuid":[],"implementationVersion":"4.6.1-3652-enterprise","componentsVersion":{"lhttpc":"1.3.0","os_mon":"2.2.14","public_key":"0.21","asn1":"2.0.4","kernel":"2.16.4","ale":"4.6.1-3652-enterprise","inets":"5.9.8","ns_server":"4.6.1-3652-enterprise","crypto":"3.2","ssl":"5.3.3","sasl":"2.3.4","stdlib":"1.19.4"}}
 ```
+* Stop all containers again
+
+```
+docker stop couchbase-1
+docker stop couchbase-2
+docker stop couchbase-3
+docker ps
+```
+
+### Couchbase
+
+One exercise will be to install Couchbase Server w/o using the Docker image, which means that we need to Download and verify the rpm file.
+
+* Download the RHEL7/CentOS7 installation package
+```
+yum install wget
+cd --
+mkdir Downloads
+cd Downloads
+wget https://packages.couchbase.com/releases/4.6.1/couchbase-server-enterprise-4.6.1-centos7.x86_64.rpm
+```
+
+* Install Couchbase Server
+```
+rpm -ivh couchbase-server-enterprise-4.6.1-centos7.x86_64.rpm
+```
+
+* Check the service status
+```
+systemctl status couchbase-server | grep Active
+```
+
+* Verify that you can access the Admin UI
+```
+http://192.168.56.101:8091
+```
