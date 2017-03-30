@@ -50,7 +50,7 @@ The following commands need to be executed as user 'root'
 
 ### NAT
 
-The NAT interface should be there by default. The NAT IP is usually something like '10.0.2.15'. 
+If you just want to access the outside world from within the VM then a NAT interface is enough. The NAT interface should be there by default. The NAT IP is automatically assigned and is usually something like '10.0.2.15'. 
 
 In order to enable access from the outside world via NAT, port forwarding can be used. So to simplify further configuration steps it makes sense to allow the access from the outside world to the VM via NAT and port forwarding. Under the network settings of the VM's NAT network define the following port forwardings:
 
@@ -68,7 +68,7 @@ systemctl stop firewalld
 
 ### Host only
 
-The next step is to allow the machine to be connected by other machines in the network because in the exercises we want build a cluster of VM-s here. First we need to add a second network adapter:
+Host-only networking creates a network that is completely contained within the host computer. It allows us to connect to our VM without using Port forwarding.
 
 * Power off the VM
 * Under the VM settings add 'Adapter 2' and enable it
