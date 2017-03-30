@@ -1,4 +1,6 @@
-* [Couchbase Development Workshop](#couchbase-development-workshop)
+# TOC
+
+   * [Couchbase Development Workshop](#couchbase-development-workshop)
       * [Requirements](#requirements)
       * [Virtual Machine Setup](#virtual-machine-setup)
          * [Configure the VM network](#configure-the-vm-network)
@@ -9,18 +11,13 @@
          * [Couchbase](#couchbase)
          * [Graphical User Interface](#graphical-user-interface)
          * [Java IDE](#java-ide)
-         * [C/C++   IDE](#cc-ide)
+         * [C/C   IDE](#cc-ide)
          * [Final steps](#final-steps)
 
-
          
-# Couchbase Development Workshop
+# VM Setup
 
-This repository contains the material for a combined developer workshop. The following SDK-s are covered:
-
-* C/C++
-* Java
-
+This document describes how to set up the workshop VM.
 
 ## Requirements
 
