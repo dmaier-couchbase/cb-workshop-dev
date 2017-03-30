@@ -103,10 +103,11 @@ Details regarding the setup of the workshop VM can be found here:
 | --------------- | -------------------------------------- | -------------------------------------------- |
 | 7               | Project Setup                          | Qt (C/C++) or Netbeans/Maven (Java) | 
 | 8               | Connection Management                  | Implement a Data Source Factory |
-| 9               | Create/Update Documents                | Implement the Upsert method of the Data Source class |
-| 10              | Get Documents                          | Implement the Get method of the Data Source class |
-| 11              | Delete Documents                       | Implement the Delete method of the Data Source class |
-| 12              | Query a View                           | Create a View via the Admin UI, Implement the QueryView method in the Data Source class|
-| 13              | Querying via N1QL                      | Inspect the Global Secondary Indexes, Simple queries, Join queries, Implement the QueryN1ql method in the DataSource class |
-| 14              | Full Text Search                       | Implement  the FullTextSearch method in the DataSource class  |
-| 15              | A Sample Application                   | Run and build the Travel-Sample application  |
+| 9               | Create/Update Documents                | Implement the Upsert method in the Data Source class |
+| 10              | Get Documents                          | Implement the Get method in the Data Source class |
+| 11              | Use the Sub-Documents API              | Implement a PartialGet method in the Data Source class |
+| 12              | Delete Documents                       | Implement the Delete method in the Data Source class |
+| 13              | Query a View                           | Create a View via the Admin UI, Implement the QueryView method in the Data Source class|
+| 14              | Querying via N1QL                      | Inspect the Global Secondary Indexes, Simple queries, Join queries, Implement the QueryN1ql method in the DataSource class |
+| 15              | Full Text Search                       | Inspect Full Text Indexes, Implement  the FullTextSearch method in the DataSource class |
+| 16              | A Sample Application                   | Run and build the Travel-Sample application  |
