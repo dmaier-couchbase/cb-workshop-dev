@@ -285,7 +285,7 @@ vncpasswd
 vi /root/.vnc/xstartup
 ```
 
-* Add the Window Manager to the VNC startup
+* Add the Desktop Environment to the VNC startup
 ```
 #!/bin/sh
 
