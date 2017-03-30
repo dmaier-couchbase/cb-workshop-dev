@@ -4,7 +4,7 @@
          * [Configure the VM network](#configure-the-vm-network)
             * [NAT](#nat)
             * [Host only](#host-only)
-         * [Network settings](#network-settings)
+            * [Network settings](#network-settings)
          * [Docker](#docker)
 
 # Couchbase Development Workshop
@@ -85,7 +85,7 @@ Host-only networking creates a network that is completely contained within the h
 * If there is no global host-only network then you need to create it via the general Virtualbox preferences
 * Power on the maching
 
-### Network settings
+#### Network settings
 
 Your VM should now have two network cards. You can double check and change the settings by using the following tool:
 
