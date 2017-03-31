@@ -39,7 +39,7 @@ Details regarding the setup of the workshop VM can be found here:
 ## Downloads
 
 
-* [DCEVW/Downloads](https://www.dropbox.com/sh/8umsxntxn5ou5xa/AADR_1YmKzrdeKDBZDzDeFxGa?dl=0)
+* [DCDEVW/Downloads](https://www.dropbox.com/sh/8umsxntxn5ou5xa/AADR_1YmKzrdeKDBZDzDeFxGa?dl=0)
 
 
 ## Agenda
