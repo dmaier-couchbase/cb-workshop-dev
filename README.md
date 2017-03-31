@@ -1,3 +1,15 @@
+### TOC
+
+   * [Couchbase Development Workshop](#couchbase-development-workshop)
+      * [Requirements](#requirements)
+      * [VM Setup](#vm-setup)
+      * [Downloads](#downloads)
+      * [Agenda](#agenda)
+      * [Exercises](#exercises)
+         * [Day 1: Couchbase Architecture and Administration Basics](#day-1-couchbase-architecture-and-administration-basics)
+         * [Day 2: Using the Couchbase Client Library](#day-2-using-the-couchbase-client-library)
+
+
 # Couchbase Development Workshop
 
 Couchbase Server is an open source, distributed, NoSQL document-oriented database. It exposes a fast key-value store with managed cache for submillisecond data operations, purpose-built indexers for fast queries and a query engine for executing SQL-like queries. Couchbase Server was designed to satisfy requirements for a flexible data model, a powerful query language, scalability, performance, simple administration and high availability.
