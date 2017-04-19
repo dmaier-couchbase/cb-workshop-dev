@@ -139,8 +139,9 @@ Details regarding the setup of the workshop VM can be found here:
 
 #### Day 1
 
+* Slide 37: Added the instruction how to disable the firewall for RHEL7
+* Slide 38: Removed the VM snapshotting
 * Slide 69: Added periodic merge to the backup strategies
 * Slide 70: Newly added slide regarding the backup archive structure
 * Slide 71: Added a simple cbbackupmgr exercise
 * Slide 75: Added filtered XDCR to the picture
-* 
