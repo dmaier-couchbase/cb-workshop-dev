@@ -142,3 +142,5 @@ Details regarding the setup of the workshop VM can be found here:
 * Slide 69: Added periodic merge to the backup strategies
 * Slide 70: Newly added slide regarding the backup archive structure
 * Slide 71: Added a simple cbbackupmgr exercise
+* Slide 75: Added filtered XDCR to the picture
+* 
