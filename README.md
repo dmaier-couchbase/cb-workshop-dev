@@ -131,3 +131,12 @@ Details regarding the setup of the workshop VM can be found here:
 | 14              | Querying via N1QL                      | Inspect the Global Secondary Indexes, Simple queries, Join queries, Implement the QueryN1ql method in the DataSource class |
 | 15              | Full Text Search                       | Inspect Full Text Indexes, Implement  the FullTextSearch method in the DataSource class |
 | 16              | A Sample Application                   | Run and build the Travel-Sample application  |
+
+
+## Change history
+
+### Cpp content
+
+* Slide 69: Added periodic merge to the backup strategies
+* Slide 70: Newly added slide regarding the backup archive structure
+* Slide 71: Added a simple cbbackupmgr exercise
