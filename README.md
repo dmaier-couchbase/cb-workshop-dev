@@ -142,6 +142,7 @@ Details regarding the setup of the workshop VM can be found here:
 * Slide 37: Added the instruction how to disable the firewall for RHEL7
 * Slide 38: Removed the VM snapshotting
 * Slide 42: Added the instruction how to restart Couchbase on RHEL7
+* Slide 54: Replaced VM instructions with Docker ones
 * Slide 69: Added periodic merge to the backup strategies
 * Slide 70: Newly added slide regarding the backup archive structure
 * Slide 71: Added a simple cbbackupmgr exercise
