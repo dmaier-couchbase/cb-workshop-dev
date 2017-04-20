@@ -153,3 +153,7 @@ Details regarding the setup of the workshop VM can be found here:
 
 * Slide 43: Added 4.6 to the 'Journey so Far' picture
 * Slide 48: Removed HB+ Trie structure slide
+* Slide 53: Added a slide regarding 4.6 security improvements
+* Slide 54: Added a slide regarding Timestamp based conflict resolution
+* Slide 55: Added a slide regarding support of data structures
+* Slide 56: Added a slide which shows the new 5.0 UI
