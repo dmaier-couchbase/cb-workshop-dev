@@ -152,3 +152,4 @@ Details regarding the setup of the workshop VM can be found here:
 #### Day 2
 
 * Slide 43: Added 4.6 to the 'Journey so Far' picture
+* Slide 48: Removed HB+ Trie structure slide
