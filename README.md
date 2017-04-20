@@ -148,3 +148,7 @@ Details regarding the setup of the workshop VM can be found here:
 * Slide 70: Newly added slide regarding the backup archive structure
 * Slide 71: Added a simple cbbackupmgr exercise
 * Slide 75: Added filtered XDCR to the picture
+
+#### Day 2
+
+* Slide 43: Added 4.6 to the 'Journey so Far' picture
