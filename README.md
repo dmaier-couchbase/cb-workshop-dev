@@ -157,3 +157,4 @@ Details regarding the setup of the workshop VM can be found here:
 * Slide 54: Added a slide regarding Timestamp based conflict resolution
 * Slide 55: Added a slide regarding support of data structures
 * Slide 56: Added a slide which shows the new 5.0 UI
+* Slide 32/33: Added references to examples for FTS and the SubDocument API
