@@ -158,3 +158,5 @@ Details regarding the setup of the workshop VM can be found here:
 * Slide 55: Added a slide regarding support of data structures
 * Slide 56: Added a slide which shows the new 5.0 UI
 * Slide 32/33: Added references to examples for FTS and the SubDocument API
+* Moved Text Search slide up to the exercise
+* 
